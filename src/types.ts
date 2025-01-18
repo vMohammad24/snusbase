@@ -98,3 +98,11 @@ interface HashLookupParams {
     group_by?: string | boolean;
     tables?: string[];
 }
+
+export {
+    BaseResponse, HashLookupParams,
+    HashLookupResponse, IPWhoisParams,
+    IPWhoisResponse, SearchParams,
+    SearchResponse, SearchResult, StatsResponse
+};
+

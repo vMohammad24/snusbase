@@ -1,4 +1,5 @@
 import axios, { type AxiosInstance } from 'axios';
+import { HashLookupParams, HashLookupResponse, IPWhoisParams, IPWhoisResponse, SearchParams, SearchResponse, StatsResponse } from './types';
 
 
 
